@@ -66,16 +66,24 @@ nav ul {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 85vh;
+  /* max-height: 85vh; */
   text-align: center;
-  padding: 5rem 2rem;
+}
+
+.hero-section-overlay {
+  background-color: rgba(1, 1, 1, 0.6);
+  padding: 5% 10%;
 }
 
 .hero-section__title {
   font-size: 8rem;
 }
 
+<<<<<<< HEAD
 .hero span {
+=======
+.hero-section span {
+>>>>>>> 122c59b3a4e8bddc74efed17fa13071d47ec4b69
   color: var(--primary-color);
 }
 
@@ -114,6 +122,7 @@ button {
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 .large-screen-display-none{
   display: none;
 }
@@ -187,3 +196,37 @@ footer div{
     display: block;
   }
 }
+=======
+.large-screen-display-none {
+  display: none;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo-container {
+    width: 25%;
+  }
+  nav ul {
+    display: none;
+  }
+  .large-screen-display-none {
+    display: block;
+  }
+
+  html {
+    font-size: 6px;
+  }
+  .button-container {
+    flex-direction: column;
+  }
+
+  .button-container button {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 415px) {
+  .logo-container {
+    width: 45%;
+  }
+}
+>>>>>>> 122c59b3a4e8bddc74efed17fa13071d47ec4b69
